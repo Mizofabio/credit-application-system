@@ -21,7 +21,7 @@ import java.math.BigDecimal
 import org.junit.jupiter.api.Test
 import java.util.*
 
-@ActiveProfiles("test")
+//@ActiveProfiles("test")
 @ExtendWith(MockKExtension::class)
 class CustomerServiceTest {
     @MockK
