@@ -39,7 +39,7 @@ class RestExceptionHandler {
 fun handlerValidException(ex: DataAccessException): ResponseEntity<ExceptionDetails>{
    return ResponseEntity.status(HttpStatus.CONFLICT).body(
        ExceptionDetails(
-           title = "Bad Request! Consult the documentation",
+           title = "Conflict! Consult the documentation",
            timestamp = LocalDateTime.now(),
            status = HttpStatus.CONFLICT.value(),
            exception = ex.javaClass.toString(),

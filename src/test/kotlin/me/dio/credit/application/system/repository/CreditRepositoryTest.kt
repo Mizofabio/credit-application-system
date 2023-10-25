@@ -87,7 +87,7 @@ class CreditRepositoryTest {
         income: BigDecimal = BigDecimal.valueOf(1000.0),
         password: String = "12345",
         zipCode: String = "06665",
-        street: String = "Rua teste",
+        street: String = "Rua teste"
 
     ) = Customer(
         firstName = firstName,
